@@ -1,14 +1,21 @@
+<<<<<<< HEAD
 require 'pry'
 class Author 
   
   attr_accessor :name  
   @@all = []
   @@count = 0 
+=======
+class Author 
+  
+  attr_accessor :name 
+>>>>>>> bc592478d2d7048e52ccf9490c8952bbbc669a82
   
   def initialize(name)
     @name = name 
   end 
   
+<<<<<<< HEAD
   def posts 
     @@all
   end 
@@ -34,3 +41,8 @@ class Author
 
 
 end 
+=======
+  
+  
+end 
+>>>>>>> bc592478d2d7048e52ccf9490c8952bbbc669a82
